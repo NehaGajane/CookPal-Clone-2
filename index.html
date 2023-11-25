@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookPal-Version2</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <section id = "nav-bar">
+        <nav>
+            <img src="./Cookpal 1.png">
+
+            <div id="nav-menu-profile">
+                <ul class="nav-menu">
+                    <li>Home</li>
+                    <li>Explore</li>
+                    <li>Help</li>
+                </ul>
+
+                <img class="profileimg" src="./Ellipse 2.png">
+            </div>    
+
+            <!-- <div> -->
+                <button id="hamburger-menu">
+                    <svg class="ham-menu" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="2em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path></svg>
+                </button>
+            <!-- </div> -->
+        </nav>
+    </section>
+
+    <section id="ham-menu-options">
+        <div>
+            <img src="./Cookpal 1.png">
+        </div>
+
+        <div>
+            <ul class="ham-nav-menu">
+                <li>Home</li>
+                <li>Explore</li>
+                <li>Help</li>
+            </ul>
+        </div>  
+    </section>
+
+    <section id="frontimg">
+        <div class="banner-heading">
+            <p class="heading">Trending now</p>
+            <p class="salad">Mike's famous salad <br> with cheese</p>
+            <p class="name">By John Mike</p>
+        </div>
+        
+        <img class="bannerimg2" src="./Rectangle 20 (1).png">
+        <img class="bannerimg" src="./Rectangle 20.png">
+    </section>
+
+    <section id="search">
+        <input class="search-bar" type="search" placeholder="Search for Recipes...">
+        <button id="search-btn">
+            <svg class="search-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
+        </button>
+    </section>
+
+    <section id="filter-btns">
+        <button id="allRecipes" class="filter">
+            All Recipes
+        </button>
+
+        <button id="veg" class="filter">
+            Veg Recipes Only
+        </button>
+
+        <button id="nonveg" class="filter">
+            Non Veg Recipes
+        </button>
+    </section>
+
+    <section id="mobileFilter">
+        <h3>Rating</h3>
+
+        <input class="check" type="checkbox">
+        <label>4 and Above</label>
+        <input class="check" type="checkbox">
+        <label>Below 4</label>
+    </section>
+
+    <section id="filterAndRecipes">
+        <div id="filter">
+            <h3>Filters</h3>
+
+        <h4>Rating</h4>
+        <input class="check" type="checkbox">
+        <label>4 and Above</label> <br>
+        <input class="check threestar" type="checkbox">
+        <label>Below 4</label>
+        </div>
+
+        <div id="recipes"></div>
+    </section>
+
+    <section>
+        <footer>
+            <div>
+                <img src="./Cookpal 1.png">
+                <p class="footerPara">
+                    Cookpal is a recipe websote with a <br>
+                    wide variety of delicious recipes, <br>
+                    easy-to-use search function. Join <br>
+                    our community and let's cook<br>
+                    together!
+                </p>
+            </div>
+
+            <div>
+                <h3>Company</h3>
+
+                <ul class="footerList">
+                    <li>Home</li>
+                    <li>Explore</li>
+                    <li>Team</li>
+                    <li>About Us</li>
+                    <li>Activity</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Resources</h3>
+
+                <ul class="footerList">
+                    <li>Blog</li>
+                    <li>Use Cases</li>
+                    <li>Testimonials</li>
+                    <li>Insights</li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="./Cookpal 1.png">
+
+                <p class="footerPara">Lorem, ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Laboriosam, nobis.</p>
+
+                    <input class="emailInput" type="email" placeholder="Your Email">
+                    <button class="emailBtn">Subscribe</button>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./data.js"></script>
+    <script src = "./script.js"></script>
+</body>
+</html>

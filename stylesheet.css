@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0 17px;
+}
+
+nav,#frontimg {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 17px;
+}
+
+#nav-menu-profile, .img {
+    display: flex;
+    gap: 20px;
+}
+
+.profileimg {
+    height: 45px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: auto;
+}
+
+.nav-menu>li {
+    cursor: pointer;
+}
+
+.nav-menu>li:hover {
+    color: green;
+}
+
+#frontimg {
+    /* display: flex; */
+    justify-content: center;
+    /* z-index: 0; */
+  }
+
+.bannerimg {
+    height: auto;
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+.bannerimg2 {
+    display: none;
+}
+
+.banner-heading {
+    position: absolute;
+    color: red;
+    z-index: 1;
+    left: 100px;
+    margin-top: 100px;
+    font-size: large;
+    /* margin: auto; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.salad, .name {
+    color: white;
+}
+
+.salad {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#hamburger-menu {
+    display: none;
+    position: absolute;
+    left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.ham-menu {
+    height: 40px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#ham-menu-options {
+    background-color: white;
+    position: absolute;
+    height: 95%;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    width: 50%;
+    display: none;
+}
+
+.ham-nav-menu {
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.ham-nav-menu>li:hover {
+    color: green;
+}
+
+#search {
+    padding: 17px 35px 17px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    height: 30px;
+    width: auto;
+    flex: 1;
+    margin: 0 5px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+}
+
+#search-btn {
+    height: 30px;
+    width: 30px;
+    flex: 0;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.search-svg{
+    height: 25px;
+    width: 20px;
+    margin-left: -25px;
+    margin-top: 2px;
+}
+
+#filter-btns {
+    padding: 17px 30px;
+}
+
+.filter {
+    height: 60px;
+    width: 160px;
+    font-size: smaller;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    margin: 7px;
+    color: white;
+}
+
+#allRecipes {
+    background-color: orange;
+    cursor: pointer;
+}
+
+#veg {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#nonveg {
+    background-color: red;
+    cursor: pointer;
+}
+
+#filterAndRecipes {
+    display: flex;
+    padding: 17px;
+}
+
+#filter {
+    padding: 17px;
+    flex: 1
+}
+
+#recipes {
+    flex: 4;
+    width: fit-content;
+    margin-top: 65px;
+}
+
+#filter>h3 {
+    margin-bottom: 25px;
+}
+
+#filter>h4 {
+    margin: 0 0 17px 0;
+}
+
+.check {
+    margin-left: 17px ;
+    margin-bottom: 15px;
+}
+
+#mobileFilter {
+    display: none;
+}
+
+#mobileFilter>h3 {
+    margin-bottom: 17px;
+}
+
+.recipeSet {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+.recipe {
+    max-height: 280px;
+    max-width: 300px;
+    padding: 5px 0 10px 0;
+    background-color: white;
+    border-radius: 15px;
+    line-height: 20px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.recipeImg {
+    height: 200px;
+    width: 270px;
+    border-radius: 10%;
+}
+
+.recipeType {
+    font-size: 15px;
+    color:rgb(146, 146, 146);
+}
+
+.recipeName {
+    font-size: 20px;
+}
+
+.recipeTime {
+    font-size: 15px;
+    color: red;
+    margin-top: 5px;
+}
+
+.recipeRating {
+    float: right;
+    margin-top: -45px;
+    color:rgb(146, 146, 146);
+}
+
+.star {
+    height: 15px;
+    float: right;
+    margin-top: -44px;
+    margin-right: 30px; 
+}
+
+.like-btn {
+    height: 25px;
+    width: 2px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.heart{
+    height: 20px;
+    float: right;
+    margin-top: -15px;
+}
+
+.comment {
+    height: 20px;
+    float: right;
+    margin-top: -15px;
+}
+
+footer {
+    display: flex;
+    padding: 17px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.footerList {
+    list-style: none;
+    line-height: 40px;
+}
+
+.footerPara {
+    line-height: 25px;
+}
+
+.emailInput {
+    margin: 15px;
+    height: 30px;
+
+}
+
+.emailBtn {
+    height: 35px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+@media (max-width: 650px) {
+    #nav-menu-profile {
+        display: none;
+    }
+    .bannerimg2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .bannerimg {
+        display: none;
+    }
+    
+    .banner-heading, .salad, .name {
+        left: 40px;
+    }
+    .salad, .name {
+        font-size: 30px;
+
+    }
+
+    #hamburger-menu {
+        display: block;
+        height: 50px;
+        width: 50px;
+        padding: auto;
+    }
+
+    #filter {
+        display: none;
+    }
+
+    #mobileFilter {
+        display: block;
+        margin-bottom: -50px;
+    }
+
+    #recipes {
+        width: 100%;
+    }
+
+    .recipeSet {
+        width: 90%;
+    }
+
+    .recipe {
+        min-width: 130px;
+        max-height: 180px;
+        margin: 5px;
+        padding: 2px;
+        padding-right: 2px;
+        padding-left: -5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .recipeImg {
+        max-width: 120px;
+        max-height: 110px;
+        margin-left: -11px;
+        border-radius: 15%;
+    }
+
+    .recipeName, .recipeTime {
+        font-size: 14px;
+    }
+
+    .recipeRating, .heart, .comment, .star {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .recipeSet {
+        height: auto;
+    }
+
+    .recipe {
+        height: auto;
+    }
+}
+
+@media (max-width: 1500px) {
+    #mobileFilter {
+        display: block;
+        transition: 1ms;
+    }
+
+    #filter {
+        display: none;
+        transition: 1ms;
+    }
+}
